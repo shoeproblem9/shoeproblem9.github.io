@@ -5,8 +5,8 @@ footer {
     display: flex;
   justify-content: center;
   padding: 5px;
-  background-color: #110000;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
 }
 #box
 {
@@ -18,28 +18,29 @@ textarea {
   height: 100px;
 }
 .topnav {
-  background-color: #333;
+  background-color: #ffffff;
   overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #000000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #aa0e0e;
   color: white;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif
 }
